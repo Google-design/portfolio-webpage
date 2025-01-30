@@ -1,3 +1,65 @@
+# Portfolio Website
+This is a personal portfolio website built using **Vite, React, TypeScript, and Chakra UI**. The project showcases an about section, a portfolio gallery featuring favorite books, an image comparison section, and a contact form.
+
+## Features
+- Responsive and modern UI using Chakra UI
+- Portfolio gallery showcasing favorite books
+- Before & After image comparison section
+- Contact form with validation
+- Styled using Chakra UI with color themes
+
+## Technologies Used
+- **Vite** - Fast build tool for modern web applications
+- **React** - UI library for building interactive user interfaces
+- **TypeScript** - Strongly typed JavaScript for maintainable code
+- **Chakra UI** - Modular component library for styling
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Steps to Run Locally
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+Install dependencies:
+
+sh
+Copy
+Edit
+npm install
+# or
+yarn install
+Start the development server:
+
+sh
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+Open your browser and navigate to:
+
+arduino
+Copy
+Edit
+http://localhost:5173
+Build for Production
+To create an optimized production build, run:
+
+sh
+Copy
+Edit
+npm run build
+# or
+yarn build
+The build files will be generated in the dist folder.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +110,5 @@ export default tseslint.config({
   },
 })
 ```
+
+
