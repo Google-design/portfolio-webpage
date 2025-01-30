@@ -25,40 +25,30 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/portfolio.git
-   cd portfolio
-Install dependencies:
-
-sh
-Copy
-Edit
+   cd portfolio 
+   ```
+2. Install dependencies:
+```sh
 npm install
-# or
+or
 yarn install
-Start the development server:
-
-sh
-Copy
-Edit
+```
+3. Start the development server:
+```
 npm run dev
-# or
+or
 yarn dev
-Open your browser and navigate to:
-
-arduino
-Copy
-Edit
+```
+4. Open your browser and navigate to:
 http://localhost:5173
-Build for Production
+5. Build for Production
 To create an optimized production build, run:
-
-sh
-Copy
-Edit
+```
 npm run build
-# or
+or
 yarn build
+```
 The build files will be generated in the dist folder.
-
 
 # React + TypeScript + Vite
 
