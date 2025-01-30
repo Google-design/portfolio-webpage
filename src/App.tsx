@@ -113,7 +113,7 @@ function App() {
 
         <Box mb={6} className="center">
           <Heading as="h2" size="lg" mb={4} color="purple.500">
-            Living Room Sofas
+            Photoshop
           </Heading>
           <Stack 
             color="gray.700" 
