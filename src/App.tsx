@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./App.css";
 import {
   Box,
@@ -20,12 +19,10 @@ import { Radio, RadioGroup } from "./components/ui/radio";
 function App() {
   return (
       <Box className="portfolio-container" p={5} bg="linear(to-r, teal.400, orange.500)">
-        {/* Header */}
         <Heading as="h1" className="center" mb={6} color="teal.500">
           WELCOME TO MY PORTFOLIO
         </Heading>
   
-        {/* About Section */}
         <Box mb={6} p={4} bgGradient="to-r" gradientFrom="#a7ffeb" gradientTo="blue.200" borderRadius="md" boxShadow="sm">
           <Heading as="h2" size="lg" mb={2} color="purple.500">
             About Me
@@ -39,7 +36,6 @@ function App() {
           </Text>
         </Box>
   
-        {/* Portfolio Gallery */}
         <Box mb={6} p={4} bg="white" borderRadius="md" boxShadow="sm">
           <Heading as="h2" size="lg" mb={4} color="purple.500">
             My Favorite Books
@@ -78,7 +74,6 @@ function App() {
           </Table.Root>
         </Box>
   
-        {/* Contact Form */}
         <Box mb={6} p={4} bg="pink.200/50" borderRadius="md" boxShadow="sm">
           <Heading as="h2" size="lg" mb={2} color="purple.500">
             Contact Me
@@ -142,7 +137,6 @@ function App() {
           </Stack>
         </Box>
   
-        {/* Footer */}
         <Box className="center" mt={8} p={4} bg="teal.500" color="white" borderRadius="md">
           <Text>&copy; 2025 Fnu Abdullah. All rights reserved.</Text>
         </Box>
